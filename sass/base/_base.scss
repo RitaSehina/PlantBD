@@ -1,0 +1,37 @@
+html,
+body {
+	font-family: 'Neuton';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #000000;
+}
+
+.container {
+	max-width: 1246px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+.logo {
+	font-family: 'Lalezar';
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.6;
+	color: #fff;
+}
+
+.visually-hidden {
+	opacity: 0;
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+	display: block;
+	margin-left: -10000px;
+	background: transparent;
+	font-size: 0;
+}
+
+.none {
+	display: none;
+}

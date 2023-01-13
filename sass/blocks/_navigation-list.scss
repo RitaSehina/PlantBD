@@ -1,0 +1,22 @@
+.nav-list {
+	ul {
+		display: flex;
+	}
+
+	li:not(:last-child) {
+		margin-right: 40px;
+	}
+
+	a {
+		transition: font-family 0.2s ease-in;
+		&:hover {
+			font-family: 'Lobster Two';
+			font-weight: 700;
+		}
+	}
+}
+
+.active {
+	font-family: 'Lobster Two';
+	font-weight: 700;
+}
